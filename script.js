@@ -78,7 +78,7 @@ class TetrisGame {
         this.gameRunning = false;
         this.gamePaused = false;
         this.dropTime = 0;
-        this.dropInterval = 1000; // 1초
+        this.dropInterval = 500; // 0.5초
         
         this.initEventListeners();
         this.updateDisplay();
@@ -126,7 +126,7 @@ class TetrisGame {
         this.level = 1;
         this.lines = 0;
         this.board = this.createBoard();
-        this.dropInterval = 1000;
+        this.dropInterval = 500;
         
         this.spawnNewPiece();
         this.updateDisplay();
@@ -303,7 +303,7 @@ class TetrisGame {
             this.lines += linesCleared;
             this.score += linesCleared * 100 * this.level;
             this.level = Math.floor(this.lines / 10) + 1;
-            this.dropInterval = Math.max(100, 1000 - (this.level - 1) * 100);
+            this.dropInterval = Math.max(50, 500 - (this.level - 1) * 50);
             this.updateDisplay();
         }
     }
