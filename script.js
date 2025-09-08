@@ -10,7 +10,7 @@ const TETRIS_PIECES = [
         shape: [
             [1, 1, 1, 1]
         ],
-        color: '#00f5ff'
+        color: '#00ffff'
     },
     // O 블록
     {
@@ -18,7 +18,7 @@ const TETRIS_PIECES = [
             [1, 1],
             [1, 1]
         ],
-        color: '#ffff00'
+        color: '#ffd700'
     },
     // T 블록
     {
@@ -26,7 +26,7 @@ const TETRIS_PIECES = [
             [0, 1, 0],
             [1, 1, 1]
         ],
-        color: '#a000f0'
+        color: '#ff69b4'
     },
     // S 블록
     {
@@ -34,7 +34,7 @@ const TETRIS_PIECES = [
             [0, 1, 1],
             [1, 1, 0]
         ],
-        color: '#00f000'
+        color: '#32cd32'
     },
     // Z 블록
     {
@@ -42,7 +42,7 @@ const TETRIS_PIECES = [
             [1, 1, 0],
             [0, 1, 1]
         ],
-        color: '#f00000'
+        color: '#ff4500'
     },
     // J 블록
     {
@@ -50,7 +50,7 @@ const TETRIS_PIECES = [
             [1, 0, 0],
             [1, 1, 1]
         ],
-        color: '#0000f0'
+        color: '#4169e1'
     },
     // L 블록
     {
@@ -58,7 +58,7 @@ const TETRIS_PIECES = [
             [0, 0, 1],
             [1, 1, 1]
         ],
-        color: '#ff7f00'
+        color: '#ff8c00'
     }
 ];
 
